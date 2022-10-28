@@ -52,5 +52,23 @@ public static void main(String[] args) {
 	// if we have write string , then it become append
 	System.out.println("sum="+x+y);	
 	System.out.println(x+y+"sum="+(x+y));	
+
+
+
+	
+	
+	
+	/*[a-zA-Z_$]
+	 * 
+	 *  int abc = 10; 	valid   
+	 *  int 1abc = 10;  invalid
+	 *  int _abc = 10;	valid
+	 *  int #abc = 10;  invalid
+	 *  int $abc = 10; 	valid
+	 *  
+	 *  
+	 */
+	
+
 }
 }
