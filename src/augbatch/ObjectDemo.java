@@ -1,12 +1,25 @@
 package augbatch;
 
 public class ObjectDemo {
+	int i1;
+	static int i2;
+	
+	
+	
 	public static void main(String[] args) {
+		int i1;
+		// static  - outside the method but the class
+		// instance - outside the method but the class
+		// local - inside method
+		
+		Student.planet ="Earth";
+
+		
+		
 		Student s1 = new Student();
 		s1.name ="sabbir";
 		s1.className = "Masters";
 		
-		Student.planet ="Earth";
 
 
 		Student s2 = new Student();
@@ -41,10 +54,10 @@ class Student{
 	static String planet ;   // Shared variable
 	// Class Variable
 
+	int j = i;
+	static int i = 10;
 
 	//instance -  inside class but outside method
-	
-	// 
 	
 	// Behaviour
 	void speak(String content){
